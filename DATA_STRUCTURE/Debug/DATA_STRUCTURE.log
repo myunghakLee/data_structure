@@ -1,0 +1,12 @@
+﻿  ADT(stack).cpp
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(115): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(124): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(130): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(131): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(134): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(142): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(160): warning C4244: '인수': 'float'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(169): warning C4244: '인수': 'float'에서 'char'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(105): warning C4715: 'calculator::get_op_prec': 모든 제어 경로에서 값을 반환하지는 않습니다.
+c:\users\명학\documents\visual studio 2015\projects\data_structure\data_structure\adt(stack).cpp(189): warning C4715: 'calculator::calc_sub': 모든 제어 경로에서 값을 반환하지는 않습니다.
+  DATA_STRUCTURE.vcxproj -> C:\Users\명학\documents\visual studio 2015\Projects\DATA_STRUCTURE\Debug\DATA_STRUCTURE.exe
