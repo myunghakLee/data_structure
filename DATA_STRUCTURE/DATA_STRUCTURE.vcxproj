@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Queue(ADT).cpp" />
-    <ClCompile Include="Queue(main).cpp" />
+    <ClInclude Include="LinkedList%28head%29.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Queue(head).h" />
+    <ClCompile Include="LinkedList(ADT).cpp" />
+    <ClCompile Include="LinkedList(main).cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{15873746-ABF6-4E94-B6DC-6911D5F22F67}</ProjectGuid>
