@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Queue(ADT).cpp" />
+    <ClCompile Include="Queue(main).cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Queue(head).h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{15873746-ABF6-4E94-B6DC-6911D5F22F67}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -145,13 +152,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="ADT%28stack%29.cpp" />
-    <ClCompile Include="stack.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="head%28stack%29.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

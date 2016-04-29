@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ADT%28stack%29.cpp">
+    <ClCompile Include="Queue(main).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="stack.cpp">
+    <ClCompile Include="Queue(ADT).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="head%28stack%29.h">
+    <ClInclude Include="Queue(head).h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
