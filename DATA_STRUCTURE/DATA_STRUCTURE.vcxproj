@@ -19,11 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LinkedList%28head%29.h" />
+    <ClCompile Include="Tree(ADT).cpp" />
+    <ClCompile Include="Tree(main).cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList(ADT).cpp" />
-    <ClCompile Include="LinkedList(main).cpp" />
+    <ClInclude Include="Tree(head).h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{15873746-ABF6-4E94-B6DC-6911D5F22F67}</ProjectGuid>
