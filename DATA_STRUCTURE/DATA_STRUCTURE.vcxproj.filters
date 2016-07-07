@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tree(ADT).cpp">
+    <ClCompile Include="Sort(main).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Tree(main).cpp">
+    <ClCompile Include="Tree(ADT).cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

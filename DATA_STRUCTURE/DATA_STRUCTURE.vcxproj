@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Sort(main).cpp" />
     <ClCompile Include="Tree(ADT).cpp" />
-    <ClCompile Include="Tree(main).cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Tree(head).h" />

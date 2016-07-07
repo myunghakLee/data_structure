@@ -41,8 +41,8 @@ public:
 
 	void insert_min_heap(int data);
 	void insert_max_heap(int data);
-	void delete_max_heap();								//max heap의 root node를 지움
-	void delete_min_heap();
+	int delete_max_heap();								//max heap의 root node를 지움
+	int delete_min_heap();
 	void change_node(node*a, node*b);
 
 };
