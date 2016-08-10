@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sort(main).cpp" />
+    <ClCompile Include="AVL_tree.cpp" />
     <ClCompile Include="Tree(ADT).cpp" />
   </ItemGroup>
   <ItemGroup>

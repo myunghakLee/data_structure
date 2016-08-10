@@ -392,3 +392,74 @@ void tree::change_node(node*a, node*b) {
 	a->data = b->data;
 	b->data = num;
 }
+
+void AVL_tree::make_AVL_tree(int data) {
+	insert_tree_sort(data);
+	rebalancing(root);
+}
+void AVL_tree::change_left_sub_tree(node *a, node *b) {
+	a->Lnode = b;
+}
+void AVL_tree::change_right_sub_tree(node *a, node *b) {
+	a->Rnode = b;
+}
+void AVL_tree::rebalancing(node *a) {							
+	if (return_BF(a) > 1) {										//왼쪽이 더 깊다
+		if (return_BF(a->Lnode) > 0) { root = LLrotate(root); }
+		else { root = LRrotate(root); }
+	}
+	else if(return_BF(a) < -1) {										//오른쪽이 더 깊다
+		if (return_BF(a->Rnode) < 0) { root = RRrotate(root); }
+		else { root = RLrotate(root); }
+	}
+}
+node* AVL_tree::RRrotate(node * a) {										//여기서 a는 맨 위의 node
+	node *R_node = a->Rnode;											//반환할 것
+	node *temp = a->Rnode->Lnode;										//일단 임시로 저장해놓음
+	a->Rnode->Lnode = a;
+	a->Rnode = temp;
+	return R_node;
+}
+node* AVL_tree::LLrotate(node * a) {
+	node *L_node = a->Lnode;											//반환활 것
+	node *temp = a->Lnode->Rnode;										//일단 임시로 저장해놓음
+	a->Lnode->Rnode = a;
+	a->Lnode = temp;
+	return L_node;
+}
+node* AVL_tree::LRrotate(node * a) {
+	RRrotate(a->Lnode);
+	return LLrotate(a);
+}
+node* AVL_tree::RLrotate(node * a) {
+	LLrotate(a->Rnode);
+	return RRrotate(a);
+}
+
+int AVL_tree::return_BF(node *a) {
+	int BF;			//균형 인수
+
+	int L_height, R_height;		//왼쪽과 오른쪽의 높이
+	
+	L_height = 0;
+	R_height = 0;
+
+	node *b = a->Lnode;
+	while (b != NULL) {
+		L_height++;
+		if (b->Lnode != NULL) { b = b->Lnode; }
+		else if (b->Rnode != NULL) { b = b->Rnode; }
+		else { break; }
+	}
+	b = a->Rnode;
+	while (b != NULL) {
+		R_height++;
+		if (b->Lnode != NULL) { b = b->Lnode; }
+		else if (b->Rnode != NULL) { b = b->Rnode; }
+		else { break; }
+	}
+
+	BF = L_height - R_height;
+
+	return BF;
+}
